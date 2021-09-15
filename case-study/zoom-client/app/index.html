@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zoom Quick Summary</title>
+</head>
+<body style="font-family: Arial; text-align: center; top: 200px;">
+  <div id="main">
+    <h1>Zoom Quick Summary</h1>
+    <form action="/capture" method="POST">
+      <label for="meeting-id">
+        Enter meeting ID:
+        <input type="number" id="meeting-id" name="meeting-id">
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+    <h5 style="font-weight:normal;">
+      The meeting ID must be specifically for a recorded meeting with a chat history which you were a host of.
+      <br><br>
+      You can find a list of your previously recorded meetings and their
+        <a href="https://zoom.us/recording" target="_blank" rel="noopener noreferrer">
+          meeting IDs here.
+        </a>
+        <br>
+        If your account is through an organization, log in with SSO using [your organization].zoom.us and then your Zoom organization login credentials.
+        <br><br>
+        <a href="https://msstash.morningstar.com/projects/FP/repos/zoom-case-study/browse/README.md" target="_blank" rel="noopener noreferrer">
+          Full Zoom Quick Summary documentation.
+        </a>
+    </h5>
+  </div>
+</body>
+</html>
